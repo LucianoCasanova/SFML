@@ -45,7 +45,7 @@ int main()
         processEvents(window);
 
         // Fake travel toward increasing Z
-        for (uint32_t i{0}; i < conf::count; ++i)
+        for (uint32_t i{conf::count}; i--;)
         {
             Star& s = stars[i];
             s.z -= conf::dt * conf::speed;
