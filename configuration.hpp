@@ -9,8 +9,8 @@ namespace conf
 	float const dt = 1.0f / static_cast<float>(max_framerate);
 
 // Star configuration
-	uint32_t const count = 500000;
-	float const radius = 10.0f;
+	uint32_t const count = 50000;
+	float const radius = 40.0f;
 	float const far = 10.0f;
 	float const near = 0.1f;
 	float const speed = 1.0f;
